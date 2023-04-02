@@ -2,7 +2,7 @@ const path = require('path')
 const TerserWebpackPlugin = require('terser-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 
-const pluginName = 'docsify-valine'
+const pluginName = 'docsify-mango-valine'
 
 module.exports = {
   mode: 'production',
@@ -13,7 +13,7 @@ module.exports = {
   output: {
     path: path.join(process.cwd(), 'dist'),
     filename: '[name].js',
-    library: 'DocsifyValine',
+    library: 'DocsifyMangoValine',
     libraryTarget: 'umd',
     libraryExport: 'default',
     sourceMapFilename: '[file].map',
