@@ -1,5 +1,6 @@
 let config = {
-    el: '#vcomments'
+    el: '#vcomments',
+    placeholder: "请输入您的评论！(可匿名)"
 }
 function onlyHash(){
     return window.location.href.split("?")[0];
