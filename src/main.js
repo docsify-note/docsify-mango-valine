@@ -1,6 +1,9 @@
 let config = {
     el: '#vcomments',
-    path: window.document.title // 默认按标题
+    path: onlyHash() // 默认onlyHash
+}
+function onlyHash(){
+    return window.location.href.split("?")[0];
 }
 export function install (hook, vm) {
     hook.afterEach(function(html, next) {
@@ -16,6 +19,8 @@ export function install (hook, vm) {
         // 每次路由切换时数据全部加载完成后调用，没有参数。
         // ...
         let theConfig = Object.assign({}, config, window.$docsify.valine);
+        console.info("[docsify-valine] config");
+        console.info(theConfig);
         new Valine(theConfig)
         console.info("[docsify-valine] render success!")
       });
