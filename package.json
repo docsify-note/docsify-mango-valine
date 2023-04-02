@@ -1,11 +1,11 @@
 {
-  "name": "docsify-valine",
+  "name": "docsify-mango-valine",
   "version": "1.0.0",
   "description": "docsify valine plugin",
   "main": "src",
-  "unpkg": "dist/docsify-valine.min.js",
-  "homepage": "https://github.com/mg0324/docsify-valine",
-  "repository": "git@github.com:mg0324/docsify-valine.git",
+  "unpkg": "dist/docsify-mango-valine.min.js",
+  "homepage": "https://github.com/mg0324/docsify-mango-valine",
+  "repository": "git@github.com:mg0324/docsify-mango-valine.git",
   "files": [
     "dist/",
     "demo.png"
