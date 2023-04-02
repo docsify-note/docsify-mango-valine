@@ -1,6 +1,6 @@
 {
   "name": "docsify-mango-valine",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "docsify valine plugin",
   "main": "src",
   "unpkg": "dist/docsify-mango-valine.min.js",

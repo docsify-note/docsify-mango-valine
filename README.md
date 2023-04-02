@@ -28,5 +28,5 @@ docsify valine plugin，集成valine评论插件！
     ```html
     <!-- 评论  -->
     <script src='//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
-    <script src="https://unpkg.com/docsify-mango-valine@1.0.3/dist/docsify-mango-valine.min.js"></script>
+    <script src="https://unpkg.com/docsify-mango-valine@1.1.0/dist/docsify-mango-valine.min.js"></script>
     ```
